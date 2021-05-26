@@ -6,10 +6,10 @@ Yocto SDK is used to cross compile source. Makefile will fetch $(CC) from termin
 
 Run below command to verify
 
-## Command:
+### Command:
 echo ${CC}
 
-## Output:
+### Output:
 arm-tdx-linux-gnueabi-gcc -march=armv7-a -mthumb -mfpu=neon -mfloat-abi=hard -fstack-protector-strong -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/opt/tdx-xwayland/5.2.0/sysroots/armv7at2hf-neon-tdx-linux-gnueabi
 
 Last issue make command in project directory
